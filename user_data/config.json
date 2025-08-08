@@ -8,6 +8,7 @@
     "name": "alpaca",
     "key": "%ALPACA_KEY%",
     "secret": "%ALPACA_SECRET%",
+    "strategy": "BasicStrategy"
     "ccxt_config": {},
     "ccxt_async_config": {}
   },
