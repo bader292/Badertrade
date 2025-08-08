@@ -8,4 +8,4 @@ WORKDIR /freqtrade
 COPY . .
 
 # نشغل البوت باستخدام config.json
-CMD ["freqtrade", "backtesting", "--config", "user_data/config.json", "--strategy", "BasicStrategy"]
+CMD ["freqtrade", "trade", "--config", "user_data/config.json", "--strategy", "BasicStrategy"]
